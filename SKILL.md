@@ -9,28 +9,7 @@ description: |
   alignment, spacing, and minor template updates. For projects that use translations, it should follow
   the existing i18n pattern instead of hardcoding user-facing text.
 
-triggers:
-  - make ui change
-  - update ui
-  - safe ui change
-  - fix spacing
-  - adjust layout
-  - change copy
-  - update copy
-  - tweak style
-  - polish ui
-  - change button text
-
-allowed-tools:
-  - Bash
-  - Read
-  - Write
-  - Edit
-  - MultiEdit
-  - Glob
-  - Grep
-  - AskQuestion
-  - Jetbrains
+disable-model-invocation: true
 ---
 
 # make-ui-changes
